@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- when we want to make our page be responsive
+    and when we use some formats in our site -->
+    <picture>
+        <!-- we say in source tag that in this size ,do this -->
+        <!-- it's like if and else in programming and if the size of the picture is this do it and if not go to next line and check if there is and so on... -->
+        <!-- <source srcset="images/img01.jpg" media="(min-width: 700px)" type="images/webp"> -->
+        <!-- <source srcset="images/img01.jpg" media="(min-width: 700px)" sizes="80vw"> -->
+        <!-- <source srcset="images/img01.jpg, images/img03.jpg 2x" media="(min-width: 700px)"> -->
+        <!-- agar Tarakpm pixceli 2 barabar bood aks dovom ro mizare -->
+
+
+        <!-- <source srcset="images/img01.jpg" media="(min-width: 700px)">
+        <source srcset="images/img02.jpg" media="(min-width: 400px)"> -->
+
+        <source srcset="images/img01.jpg" media="(min-width: 700px) and (orientation: landscape)">
+        <source srcset="images/img02.jpg" media="(min-width: 700px) and (orientation: portrait)">
+        <!-- else is the img tag -->
+        <img src="images/img03.jpg" alt="">
+    </picture>
+    
+</body>
+</html>
