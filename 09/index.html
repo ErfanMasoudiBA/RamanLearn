@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- layers in html -->
+    <!-- every sections must be separated! -->
+    <table>
+        <!-- we use colgroup to change in a columns what ever we want -->
+        <colgroup>
+        <col style="background-color: aqua;">
+        <col span="2" style="background-color: yellow;">
+        <col>
+        
+        </colgroup>
+      <!-- for clean coding you can use thead to separated table's header with others. -->
+      <thead>
+        <tr>
+          <th>نام کالا</th>
+          <th>مبلغ</th>
+          <th>مبلغ</th>
+        </tr>
+      </thead>
+      <!-- tbody is like as thead  -->
+      <tbody>
+        <tr>
+          <td>آیفون</td>
+          <td>100</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>تبلت</td>
+          <td>100</td>
+          <td>200</td>
+        </tr>
+      </tbody>
+      <!-- tfoot -->
+      <tfoot>
+        <tr>
+          <td>جمع کل</td>
+          <td>100</td>
+          <td>300</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
