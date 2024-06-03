@@ -1,0 +1,7 @@
+p{
+    /* font-size: 5vw; */
+    /* font-size: 5vh; */
+    /* font-size: 5vmin; */
+    font-size: 5vmax;
+    /* view port is the size of the device that shows the page */
+}
