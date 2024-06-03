@@ -1,0 +1,18 @@
+/* Basic selectors */
+p {
+    color: blue;
+}
+
+/* . class */
+.red {
+    color: red;
+}
+
+/* id # */
+#yellow {
+    color: yellow;
+}
+
+* {
+    border: 1px solid black;
+}
