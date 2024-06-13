@@ -1,0 +1,35 @@
+/* div {
+  background-image: url("img01.jpg");
+  border: 10px dotted green;
+  background-origin: padding-box;
+  background-origin: border-box;
+} */
+/* div {
+  background-image: url("img01.jpg");
+  border: 10px dotted green;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-position: 30% 10$;
+  background-origin: border-box;
+} */
+/* div {
+  background-image: url("img01.jpg");
+  border: 10px dotted green;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+} */
+/* div {
+  background-image: url("img01.jpg");
+  border: 10px dotted green;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+div {
+  background: url("img01.jpg") no-repeat fixed center top;
+  /* background: color(srgb red green blue) image() position size repeat origin clip attachment; */
+  border: 10px dotted green;
+}
