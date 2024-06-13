@@ -1,0 +1,11 @@
+div {
+  border-color: blueviolet red yellow blue;
+  border-style: solid;
+  border-radius: 40px;
+  border-width: 10px 20px 30px 40px;
+}
+
+div {
+  /* border: 10px solid red; */
+  /* border-bottom: 5px; */
+}
