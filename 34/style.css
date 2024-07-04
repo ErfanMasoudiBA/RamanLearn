@@ -1,0 +1,19 @@
+/* div{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border: 3px solid red;
+    margin: 50px;
+    padding: 100px;
+}
+p{
+    border: 2px solid blueviolet;
+    padding: 100px;
+    margin: 10px;
+} */
+
+p{
+    border: 2px solid red;
+    outline: 2px solid blueviolet; /*the space between border and margin*/
+    outline-offset: 10px; /*the space between outline and border*/
+}

@@ -1,0 +1,23 @@
+/* p{
+    text-transform: uppercase;
+} */
+/* p{
+    text-indent: 30px;
+} */
+
+p{
+    /* letter-spacing: 5px; */
+    /* line-height: 10; */
+    /* word-spacing: 30px; */
+    /* white-space: nowrap; */
+}
+h1{
+    text-shadow: 20px 10px 5px red;
+}
+div{
+    width: 150px;
+    border: 3px solid red ;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
