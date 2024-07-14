@@ -1,0 +1,15 @@
+.serif{
+    font-family: serif;
+}
+.sansserif{
+    font-family: sans-serif;
+    /* recommended */
+}
+.monospace{
+    font-family: monospace;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+/* p{
+    font-style: italic;
+} */

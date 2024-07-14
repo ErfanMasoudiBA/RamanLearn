@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    /* align-content: center; */
+}
+.button{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+div.search{
+    /* background-color:green ; */
+    background-color: #4CAF50;
+    margin: 10px;
+}
+div.user{
+    /* background-color:red ; */
+    background-color: #F44336;
+    margin: 10px;
+
+}
+div.GPS{
+    /* background-color:blue ; */
+    background-color: #008080;
+    margin: 10px;
+
+}
+.icons{
+    font-size: 20px;
+    color: white;
+}
