@@ -1,0 +1,25 @@
+
+a:link{
+    color: pink;
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: black;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+a:hover{
+    text-decoration: none;
+}
+
+p{
+    cursor:s-resize ;
+}
