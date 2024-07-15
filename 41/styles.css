@@ -1,0 +1,7 @@
+@import 'custom.css'
+/* @import url('custom.css'); */
+
+/* must be at the first lines. */
+/* used for fonts */
+
+/* @import 'custom.css' screen and (max-width: 500px); */
