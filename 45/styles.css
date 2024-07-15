@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2c94c;
+    margin: 0;
+}
+
+.button-container {
+    position: relative;
+}
+
+#moveButton {
+    padding: 20px 40px;
+    background-color: #f2994a;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+#moveButton.moved {
+    transform: translateX(200px);
+}
