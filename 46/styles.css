@@ -1,0 +1,57 @@
+table,th,td{
+    border: 1px solid black;
+}
+/* table {
+    border-collapse: collapse;
+    border-collapse: separate;
+    border: 1px solid black;
+    
+}
+table{
+    width: 100%;
+}
+th{
+    height: 40px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 10px;
+} */
+/* 
+table{
+    empty-cells: hide;
+} */
+
+/* table{
+    caption-side: bottom;
+    width: 100%;
+}
+th{
+    text-align: left;
+}
+td{
+    height: 100px;
+    vertical-align: bottom;
+} */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid darkgoldenrod;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:hover {
+    background-color: red;
+    cursor: pointer;
+}
+div{
+    overflow-x: auto;
+}

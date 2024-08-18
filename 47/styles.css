@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1c2a;
+    color: #fff;
+    align-items: center;
+}
+
+.table-container {
+    width: 80%;
+    max-width: 1000px;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: separate; /* This is needed to apply border-spacing */
+    border-spacing: 10px; /* Adjust this value to increase or decrease space between cells */
+    table-layout: auto;
+    width: 100%;
+}
+
+thead th {
+    background-color: #1a1c2a;
+    color: #59c3ff;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+tbody td {
+    padding: 15px;
+    background-color: #252738;
+    color: #e5e5e5;
+    font-size: 16px;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #2e3047;
+}
+
+tbody td:nth-child(1) {
+    color: #ff6347;
+}
+
+tbody tr:hover td {
+    background-color: #494d74;
+}
+
+table td:hover {
+    background-color: yellow !important;
+    color: #69281c;
+    box-shadow: -5px 5px 0px rgb(182, 118, 0);
+}
