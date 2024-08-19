@@ -1,0 +1,37 @@
+div.first{
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+}
+div.second{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+div.third{
+    background-color: rgb(0, 255, 60);
+    /* display: none; */
+    visibility: hidden;
+    width: 300px;
+    height: 300px;
+}
+span.first{
+    background-color: cadetblue;
+    /* display: inline; */
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+span.second{
+    background-color: red;
+    display: inline;
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    display: inline;
+    color: green;
+}
